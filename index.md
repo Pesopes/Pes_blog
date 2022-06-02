@@ -4,10 +4,15 @@ Tenhle blog bude hlavně o tom, co zrovna programuju a taky co hraju.
 
 Můj úkol je vydat alespoň jeden článek za měsíc, ale uvidím.
 
-<ul>
+<div class="posts">
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.content }}
+      </div>
+    </article>
   {% endfor %}
-</ul>
+</div>
