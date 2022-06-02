@@ -1,4 +1,4 @@
-# pesopes.github.io
-This is just my website that exists.
+# Pes blog
+This is just my blog that exists.
 
-Also a lot of it is in czech.
+Also it is in czech.
